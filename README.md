@@ -70,12 +70,3 @@ You can copy these numbers into your report or plot them in Excel / another tool
 - `analyze_results.py` – computes speedup and efficiency from CSV
 - `data/` – output directory for result CSV files
 
-## 5. How to Use in Visual Studio
-
-1. Extract the ZIP into a folder.
-2. In Visual Studio (or VS Code), open this folder as a Python project / workspace.
-3. Make sure the interpreter has `numpy` and `psutil` installed (use `requirements.txt`).
-4. Set `benchmark_dense.py` as the startup script and run.
-5. Then run `analyze_results.py` to get the speedup and efficiency tables.
-
-This fulfills all core and optional requirements of the assignment.
